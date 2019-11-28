@@ -834,31 +834,67 @@ div.button-weblink {
 }
 
 
+@media (max-width: 1000px) {
+    #spacer1 {
+        background-image: url(../img/spacer1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    }
 
+@media (min-width: 1000px) {
 #spacer1 {
     background-image: url(../img/spacer1.jpg);
-    margin-top: 20px;
-   
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+    background-size:cover;
+    margin-top: 25px;
     width: 100%;
     height: auto;
     display: block;
-    
 }
+}
+
+@media (max-width: 1000px) {
+    #spacer1 h2{
+        font-size: 25px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+        margin-top: 235px;
+        text-align: center;
+        text-transform:capitalize;
+    }
+}
+
+@media (min-width: 1000px) {
 #spacer1 h2 {
     font-size: 30px;
     font-weight: 700;
-    color: #fff;
+    color: rgb(0, 0, 0);
     margin-top: 17px;
     padding-bottom: 10px;
     text-align: center;
     text-transform:capitalize;
 }
+}
 
-
+@media (max-width: 1000px) {
 .home-section{
     width: 100%;
-    padding: 90px 0px 150px 0px;
+    padding: 0px 0px 0px 0px;
 }
+}
+
+@media (min-width: 1000px) {
+    .home-section{
+        width: 100%;
+        padding: 90px 0px 150px 0px;
+    }
+    }
 /*/ end services /*/
 
 
