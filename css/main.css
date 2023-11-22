@@ -834,7 +834,7 @@ div.button-weblink {
 }
 
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
     #spacer1 {
         background-image: url(../img/spacer1.jpg);
         background-repeat: no-repeat;
@@ -844,9 +844,9 @@ div.button-weblink {
         height: auto;
         display: block;
     }
-    }
+    } */
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
 #spacer1 {
     background-image: url(../img/spacer1.jpg);
     background-repeat: no-repeat;
@@ -856,8 +856,8 @@ div.button-weblink {
     width: 100%;
     height: auto;
     display: block;
-}
-}
+} 
+}*/
 
 @media (max-width: 1000px) {
     #spacer1 h2{
