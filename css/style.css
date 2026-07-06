@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800);
+@import url('font-awesome.min.css');
+
+
+@import url('animate.css');
+
+
+/* education */
+
+#education {
+	min-height: auto;
+	padding: 80px 0;
+	background: linear-gradient(180deg, #ffffff 0%, #f7fbfb 100%);
+}
+
+#education .container {
+	width: 95%;
+	max-width: 1400px;
+}
+
+#education .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#education h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.grid1 {
+	background: #ffffff;
+	padding: 30px 25px;
+	border: 1px solid rgba(0, 128, 128, 0.15);
+	border-radius: 12px;
+	margin-bottom: 30px;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+	display: flex;
+	flex-direction: column;
+	height: calc(100% - 30px);
+}
+
+.edu-icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: rgba(0, 128, 128, 0.08);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+	transition: all 0.3s ease;
+}
+
+.edu-icon span {
+	font-size: 22px;
+	color: #008080;
+	transition: all 0.3s ease;
+}
+
+.grid1 h3 {
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin: 0 0 5px 0;
+	line-height: 1.3;
+}
+
+.grid1 h4 {
+	color: #008080;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	margin: 0 0 12px 0;
+	text-transform: capitalize;
+}
+
+.grid1 .university {
+	font-size: 14.5px;
+	font-weight: 600;
+	color: #555;
+	margin: 0 0 15px 0;
+}
+
+.grid1 .details {
+	font-size: 14px;
+	color: #666;
+	line-height: 1.6;
+	margin: 0 0 25px 0;
+	flex-grow: 1;
+}
+
+.grid1 .edu-year {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	color: #008080;
+	background-color: rgba(0, 128, 128, 0.06);
+	padding: 6px 12px;
+	border-radius: 20px;
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	align-self: flex-start;
+	margin-top: auto;
+}
+
+.grid1 .edu-year span {
+	font-size: 12px;
+}
+
+.grid1:hover {
+	transform: translateY(-8px);
+	border-color: #008080;
+	box-shadow: 0 15px 35px rgba(0, 128, 128, 0.1);
+	background-color: #ffffff;
+}
+
+.grid1:hover .edu-icon {
+	background-color: #008080;
+}
+
+.grid1:hover .edu-icon span {
+	color: #ffffff;
+}
+
+.educationbottom {
+	margin-top: 2em;
+}
+
+/* education */
+
+.btn-circle {
+	font-size: 26px;
+	width: 55px;
+	height: 55px;
+	margin-top: 15px;
+	line-height: 45px;
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background 0.3s ease-in-out;
+	color: white;
+	border: 2px solid white;
+	border-radius: 100% !important;
+	background: transparent;
+}
+
+.btn-circle:focus, .btn-circle:hover {
+	color: white;
+	outline: none;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+#whiteScroll:hover, #whiteScroll {
+	color: black;
+	border: 2px solid black;
+}
+
+/* about-me centered overrides */
+#about-me .about-intro-text p {
+	float: none;
+	text-align: left;
+	font-size: 18px;
+	line-height: 1.6;
+	color: #555;
+	margin: 0 auto 15px auto;
+}
+
+#about-me .about-intro-text {
+	float: none;
+	margin: 0 auto;
+}
